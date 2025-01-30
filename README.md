@@ -1,8 +1,37 @@
-# React + Vite
+# Movie Search Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie search application built with React.js, Tailwind CSS, and Appwrite. This app allows users to search for movies and see trending movies based on the number of searches. The more often a movie is searched, the higher its ranking in the trending section.
 
-Currently, two official plugins are available:
+### Features
+- Search for movies.
+- View trending movies based on search frequency.
+- Fully responsive design for mobile and desktop.
+- Integrated with Appwrite for back-end services (e.g., saving search counts).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Tech Stack
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Appwrite (used to store search counts)
+- **Deployment**: Vercel
+
+### Demo
+
+Here are some screenshots of the app in action:
+
+![Movie Search Demo 1](./public/demo1.png)
+*Hero Section Page*
+
+![Movie Search Demo 2](./public/demo2.png)
+*Trending Movies Page*
+
+![Movie Search Demo 2](./public/demo3.png)
+*Movies Section*
+
+
+### Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd <project-directory>
