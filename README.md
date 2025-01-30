@@ -26,12 +26,16 @@ Here are some screenshots of the app in action:
 ![Movie Search Demo 2](./public/demo3.png)
 *Movies Section*
 
+### Contributing
 
-### Installation
+Contributions are welcome! If you’d like to improve this project, follow these steps:
 
-To run this project locally, follow these steps:
+Fork the repository.
 
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   cd <project-directory>
+Create a new branch (git checkout -b feature-branch).
+
+Make your changes and commit (git commit -m "Add feature").
+
+Push to the branch (git push origin feature-branch).
+
+Open a pull request.
